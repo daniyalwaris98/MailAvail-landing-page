@@ -1,0 +1,162 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  padding: 0px;
+  margin: 1px;
+}
+
+div .navbar {
+  margin: 5px 5px;
+  position: relative;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  position: relative;
+  top: 0%;
+  left: 0%;
+  background-color: rgb(255, 255, 255);
+  height: 68px;
+
+  /* margin: 0px 10px; */
+  padding: 0px 20px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1),
+    0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+}
+.navbar-logo {
+  padding: 18px 12px;
+  width: 73.08px;
+  height: 44px;
+}
+.brand-name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  padding-left: 10px;
+}
+.nav-btn1 {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  flex-grow: 0;
+  background-color: white;
+  border: none;
+}
+.nav-btn2 {
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 10px;
+  border: none;
+}
+
+.navbar-links a {
+  padding: 24px 20px;
+  text-decoration: none;
+  color: black;
+  /* margin: 0px 25px; */
+  gap: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  text-align: center;
+}
+
+.navbar-brand {
+  text-align: center;
+  display: flex;
+}
+
+.navbar-buttons {
+  margin-right: 70px;
+}
+.navbar-buttons button {
+  margin: 0px 5px;
+  padding: 12px 22px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  text-align: center;
+  border-radius: 12px;
+}
+.nav-btn1 {
+  border: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+.hero-container {
+  /* position: absolute; */
+  width: 100%;
+  margin-top: 69px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+  padding-top: 43px;
+  margin-bottom: 40px;
+}
+.hero-paragraph {
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 145.52%;
+
+  /* slate/500 */
+
+  color: #64748b;
+  margin-bottom: 55px;
+}
+
+.hero-btns button {
+  text-align: center;
+  margin: auto;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0px 10px;
+}
+.hero-btn1 {
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: linear-gradient(90deg, #f158c0 0%, #6e49f5 100%);
+  border-radius: 10px;
+  padding: 12px 14px;
+  color: #f9fafb;
+}
+
+.hero-btn2 {
+  background-color: white;
+  border-radius: 10px;
+  padding: 12px 56px;
+  color: linear-gradient(90deg, #f158c0 0%, #6e49f5 100%);
+}
+footer {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  text-align: center;
+
+  /* Custom/Secondary Button BG - Hollow button border */
+
+  color: #424867;
+}
+footer p {
+  display: inline-flex;
+  height: 40px;
+}
+
+.cyan {
+  color: #22d3ee;
+}

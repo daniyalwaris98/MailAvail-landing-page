@@ -1,0 +1,51 @@
+.benefits-header {
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+  /* identical to box height, or 72px */
+
+  letter-spacing: -0.011em;
+
+  /* black */
+
+  color: #000000;
+}
+.benefits-container {
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+  margin: 0px 150px;
+}
+.row {
+  display: flex;
+  padding: 20px 100px;
+  gap: 60px;
+  justify-content: center;
+}
+.items {
+  padding-top: 60px;
+}
+.items h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  color: #111827;
+  margin: 20px 0px;
+}
+
+.items p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  /* Custom/Secondary Button BG - Hollow button border */
+
+  color: #424867;
+  flex: none;
+  align-self: stretch;
+  flex-grow: 0;
+}

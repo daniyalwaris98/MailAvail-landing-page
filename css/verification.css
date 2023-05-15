@@ -1,0 +1,171 @@
+.verification-section {
+  margin: 80px 100px;
+  display: flex;
+  align-items: stretch;
+  padding: 34px 42px;
+  gap: 8px;
+  background: rgba(220, 222, 243, 0.5);
+  border-radius: 10px;
+  align-self: center;
+}
+.veri-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap: 50px;
+  align-items: stretch;
+  padding: 0px;
+}
+
+.verification-header {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  text-align: left;
+
+  /* black */
+
+  color: #000000;
+  margin: 0px 0px;
+}
+.left-container {
+  /* flex-wrap: wrap; */
+  width: 40%;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-between;
+  /* gap: 20px; */
+}
+
+.verification-radio-buttons label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 145.52%;
+  /* or 20px */
+
+  /* slate/400 */
+
+  color: #94a3b8;
+}
+.verification-radio-buttons input {
+  margin: 10px 0px;
+}
+.group1 {
+  margin-bottom: 12px;
+}
+.group1 p {
+  margin-top: 0%;
+}
+.searcharea {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.searcharea input {
+  width: 50%;
+  background-color: transparent;
+  padding: 12px 20px;
+  border-radius: 12px 0px 0px 12px;
+  margin: 0px;
+}
+.searcharea button {
+  /* blue/600 */
+  align-self: flex-end;
+  padding: 12px 14px;
+  background: #2563eb;
+  border-radius: 0px 12px 12px 0px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  border: solid 1px gray;
+  /* identical to box height, or 143% */
+
+  text-align: center;
+
+  /* white */
+
+  color: #ffffff;
+}
+.right-container {
+  align-self: flex-end;
+  width: 55%;
+  align-self: flex-end;
+  background: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.right-container h3 {
+  font-weight: 600;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+
+  /* black */
+
+  color: #000000;
+  padding: 5px 10px;
+  margin: 20px 10px 10px 20px;
+}
+
+.right-inner {
+  display: flex;
+  gap: 20px;
+  padding: 10px 0px 10px 50px;
+  margin-bottom: 10px;
+  line-height: 145.52%;
+}
+.inner-container {
+  width: 50%;
+  display: flex;
+  gap: 25px;
+}
+
+.result-labels p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 145.52%;
+  /* or 23px */
+  text-align: left;
+
+  /* Custom/Secondary Button BG - Hollow button border */
+
+  color: #424867;
+  margin: 10px 0px;
+}
+.result-labels2 p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 145.52%;
+  /* or 23px */
+
+  text-align: left;
+
+  /* Custom/Secondary Button BG - Hollow button border */
+
+  color: #424867;
+  margin: 10px 0px;
+}
+
+.score {
+  justify-content: flex-start;
+  text-align: center;
+  width: 48%;
+  margin-right: -20px;
+}
+.score h4 {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  text-align: center;
+}
